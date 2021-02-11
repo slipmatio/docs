@@ -14,7 +14,11 @@ module.exports = {
     sidebarDepth: 2,
     lastUpdated: 'Last Modified', // string | boolean
     logo: '/assets/img/slipmat.png',
-    sidebar: ['/', '/roadmap/', '/meta/'],
+    sidebar: [
+      ['/', 'Home'],
+      ['/development/', 'Development Process'],
+      '/meta/',
+    ],
   },
   markdown: {
     extractHeaders: ['h2', 'h3', 'h4'],
