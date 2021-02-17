@@ -1,6 +1,7 @@
 ---
 tags: 
     - meta
+    - contributing
 ---
 # Contributing
 

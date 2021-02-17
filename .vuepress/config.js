@@ -16,8 +16,10 @@ module.exports = {
     logo: '/assets/img/slipmat.png',
     sidebar: [
       ['/', 'Home'],
+      ['/account/', 'Slipmat Account'],
+      '/meta/contributing.md',
       ['/development/', 'Development Process'],
-      '/meta/',
+      ['/development/changes.md', 'Changelog'],
     ],
   },
   markdown: {
