@@ -21,6 +21,14 @@ When the collection process is done, you'll get an email and a notification on t
 
 Your data is in a big JSON file, which is universal and easy to use format. (It would be nice to have a human-browseable view to all this data. If you want to help in building this, [feel free to contribute](/contribute/)!)
 
+### How To Delete Your Account
+
+Find `Delete Account` heading from [your account page](https://slipmat.io/account/). After you click the delete button and confirm your choice, your data will be scheduled for deletion and you will be logged out immediately. We'll send you an email to confirm that all your data has been deleted.
+
+::: danger Danger
+This cannot be undone, your data will be forever lost. Please export your data before deleting your account in case you ever want to use it again.
+:::
+
 ### How and what data we collect
 
 TBA
