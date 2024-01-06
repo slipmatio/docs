@@ -1,13 +1,12 @@
 ---
-tags: 
-    - account
-    - user
+tags:
+  - account
+  - user
 ---
 
 # Slipmat Account
 
 Here's some basic info about your Slipmat account. If there's something you didn't find here, feel free to [ask on Backstage](https://backstage.slipmat.io).
-
 
 ## Your Data
 

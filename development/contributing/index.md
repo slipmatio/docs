@@ -1,8 +1,9 @@
 ---
-tags: 
-    - meta
-    - contributing
+tags:
+  - meta
+  - contributing
 ---
+
 # Contributing
 
 These docs, like everything related to Slipmat code, live on [Slipmat GitLab](https://gitlab.com/slipmatio). You need to [register a free GitLab account](https://gitlab.com/users/sign_up) in order to submit changes and new content. The same account can also be used to submit and follow tickets, and help with working on Slipmat code and other docs.
