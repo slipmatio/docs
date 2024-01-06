@@ -1,23 +1,25 @@
 ---
-sidebar: true
+# https://vitepress.dev/reference/default-theme-home-page
+layout: home
+
+hero:
+  name: "Slipmat.io Docs"
+  text: "Documentation for Slipmat.io platform v3"
+  tagline: My great project tagline
+  actions:
+    - theme: brand
+      text: Markdown Examples
+      link: /markdown-examples
+    - theme: alt
+      text: API Examples
+      link: /api-examples
+
+features:
+  - title: Feature A
+    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
+  - title: Feature B
+    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
+  - title: Feature C
+    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
 ---
 
-# Slipmat v3 Docs
-
-This is the official documentation for Slipmat.io v3 (the new, open and public version of Slipmat). Please note that this documentation is a **work in progress**, so unless explicitly stated, nothing you see here is to be considered final.
-
-This documentation is open source and anyone can contribute. Slipmat is a community effort, so please help if you see anything outdated.
-
-::: danger NOTE
-This documentation is still in very early stages. Please use Backstage for general questions for now.
-:::
-
-- [How to browse and report issues](/development/#how-to-report-issues)
-- [Slipmat Public Roadmap](/development/#roadmap)
-
-## Relevant Links
-
-- Backstage: [https://backstage.slipmat.io](https://backstage.slipmat.io)
-- Slipmat v3 development site: [https://stage.slipmat.io](https://stage.slipmat.io)
-- Open issues: [https://gitlab.com/slipmatio/development](https://gitlab.com/slipmatio/development)
-- Developer Docs: [https://gitlab.com/slipmatio/slipmat3-devdocs](https://gitlab.com/slipmatio/slipmat3-devdocs)

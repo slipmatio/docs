@@ -3,18 +3,14 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "vuepress dev",
-    "build": "vuepress build",
-    "updateissues": "node scripts/updateIssuesJson.mjs"
+    "dev": "vitepress dev",
+    "build": "vitepress build",
+    "preview": "vitepress preview"
   },
   "dependencies": {
-    "dotenv": "^8.2",
-    "glob": "^7.1",
-    "lodash-es": "^4.17",
-    "needle": "^2.6",
-    "vuepress": "^1.8"
+    "vitepress": "1.0.0-rc.35"
   },
   "devDependencies": {
-    "vuepress-plugin-plausible-analytics": "^0.2"
+    "vue": "3.4.5"
   }
 }
