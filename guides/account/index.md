@@ -20,7 +20,7 @@ Find `Download User Data` heading from [your account page](https://slipmat.io/ac
 
 When the collection process is done, you'll get an email and a notification on the site. You'll now find a download button from the account page.
 
-Your data is in a big JSON file, which is a machine-readable and easy to use format. (It would be nice to have a more human-browseable view to all this data. If you want to help in building this, [feel free to contribute](/contribute/)!)
+Your data is in a big JSON file, which is a machine-readable and easy to use format. (It would be nice to have a more human-browseable view to all this data. If you want to help in building this, [feel free to contribute](/development/contributing/)!)
 
 ### What data we collect
 
