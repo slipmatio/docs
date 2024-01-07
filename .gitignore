@@ -3,8 +3,8 @@
 .DS_Store
 ._*
 .tags*
-pip-log.txt
-pip-delete-this-directory.txt
 .env
 .vuepress/dist
 node_modules
+.vitepress/dist
+.vitepress/cache
