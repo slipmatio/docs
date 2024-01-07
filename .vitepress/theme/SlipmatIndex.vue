@@ -26,26 +26,9 @@ const { Layout } = DefaultTheme
           </ul>
           <h2>Relevant Links</h2>
           <ul>
-            <li
-              >Backstage:
-              <a href="https://backstage.slipmat.io">https://backstage.slipmat.io</a></li
-            >
-            <li
-              >Slipmat v3 development site:
-              <a href="https://stage.slipmat.io">https://stage.slipmat.io</a></li
-            >
-            <li
-              >Open issues:
-              <a href="https://gitlab.com/slipmatio/development"
-                >https://gitlab.com/slipmatio/development</a
-              ></li
-            >
-            <li
-              >Developer Docs:
-              <a href="https://gitlab.com/slipmatio/slipmat3-devdocs"
-                >https://gitlab.com/slipmatio/slipmat3-devdocs</a
-              ></li
-            >
+            <li> <a href="https://backstage.slipmat.io">Backstage</a> </li>
+            <li> <a href="https://discord.gg/PCSwhkZ">Discord</a> </li>
+            <li> <a href="https://github.com/slipmatio/slipmatio/issues/25">Open issues</a> </li>
           </ul>
         </div>
       </main>
