@@ -10,6 +10,7 @@ export default defineConfig({
     nav: [
       { text: 'Home', link: '/' },
       { text: 'Old Slipmat', link: 'https://slipmat.io' },
+      { text: 'Blog', link: 'https://blog.slipmat.io' },
     ],
 
     sidebar: [
