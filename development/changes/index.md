@@ -8,11 +8,19 @@ outline: 3
 
 # Slipmat v3 Docs Changelog
 
+### 2024-11-23
+
+- Added README.md.
+- Added LICENSE.md.
+- Upgraded Renovate config.
+- Added few more Glossary items.
+- Bumped all deps.
+
 ### 2024-01-07
 
-- Refactored the docs to use VitePress
-- Moved the docs from GitLab to GitHub
-- Updated the content to match the status in 2024 (!!)
+- Refactored the docs to use VitePress.
+- Moved the docs from GitLab to GitHub.
+- Updated the content to match the status in 2024 (!!).
 
 ### 2021-02-17
 
@@ -24,4 +32,4 @@ outline: 3
 
 ### 2021-02-11
 
-- First version
+- First version.

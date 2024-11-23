@@ -8,7 +8,7 @@ This glossary explains common terms used on Slipmat, making it easier to underst
 
 ### Backstage
 
-Backstage is our community forum powered by Discourse (third-party software). You can log in using your Slipmat account.
+[Slipmat Backstage](https://backstage.slipmat.io) is our community forum powered by [Discourse](https://www.discourse.org) (third-party software). You can log in using your Slipmat account.
 
 While your Slipmat credentials are used to to create your Backstage account when you sign up to Slipmat, the two systems operate independently. Changes in one system do not affect the other.
 
