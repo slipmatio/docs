@@ -6,7 +6,7 @@ After 4 years of building features, tools, and experimenting with new ideas, Sli
 
 Instead of releasing everything at once, we'll introduce new features gradually:
 
-1. Current users get early access to Version 3
+1. Current users get an early access to Version 3
 2. Once all features from the old site are tested and working in Version 3, we'll move everyone to the new platform
 3. Finally, we'll open registration for new users
 
