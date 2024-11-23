@@ -6,7 +6,7 @@ export default defineConfig({
   description: 'Documentation for Slipmat.io platform v3',
   head: [
     ['link', { rel: 'icon', href: '/favicon.ico' }],
-    ['script', { async: '', src: 'https://plausible.io/js/script.js', dataDomain: 'docs.slipmat.io' }],
+    ['script', { defer: '', src: 'https://plausible.io/js/script.js', 'data-domain': 'docs.slipmat.io' }],
   ],
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
@@ -22,7 +22,7 @@ export default defineConfig({
         text: 'Guides',
         link: '/guides/',
         items: [
-          { text: 'v3 Migration', link: '/guides/v3-migration/' },
+          // { text: 'v3 Migration', link: '/guides/v3-migration/' },
           { text: 'Account', link: '/guides/account/' },
         ],
       },
@@ -30,8 +30,8 @@ export default defineConfig({
         text: 'Reference',
         link: '/reference/',
         items: [
-          { text: 'Apps And Features', link: '/reference/features/' },
-          { text: 'Open Source', link: '/reference/open-source/' },
+          // { text: 'Apps And Features', link: '/reference/features/' },
+          // { text: 'Open Source', link: '/reference/open-source/' },
           { text: 'Glossary', link: '/reference/glossary/' },
         ],
       },
