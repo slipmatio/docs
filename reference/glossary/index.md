@@ -1,24 +1,30 @@
+---
+outline: 3
+---
+
 # Slipmat.io Glossary
 
-This glossary is written for a easy to read and link to documentaton for Slipmat-related things.
+This glossary explains common terms used on Slipmat, making it easier to understand our platform and its features.
 
 ### Backstage
 
-A Discourse-powered discussion forum for Slipmat users. Uses Slipmat account for authentication.
+Backstage is our community forum powered by Discourse (third-party software). You can log in using your Slipmat account.
 
-Note that Backstage and the rest of the Slipmat universe have nothing in comon; they live in separate siloes so one does not affect the other. The only connection between the two systems is the initial connection you do when you create your Backstage account when logging in to BAckstage with your Slipmat credentials for the first time.
+While your Slipmat credentials are used to to create your Backstage account when you sign up to Slipmat, the two systems operate independently. Changes in one system do not affect the other.
 
 ### Discord
 
-Discord is a chat platform that hosts chatrooms for all kinds of communities. Slipmat Community Chat is our Discord server. You can join by [following this invite link](https://discord.gg/PCSwhkZ). Note that Discord is a third-party service that has nothing to do with Slipmat services -- we just have a chatroom there.
+Meet other DJs and music makers in our community chat on Discord - a popular messaging app where you can share feedback and connect with fellow creators. [Join us on Discord](https://discord.gg/PCSwhkZ)! (Discord is run by another company, separate from Slipmat.)
 
 ### Flash
 
-Slipmat.io email bot that send you email from `noreply@slipmat.io`. Flash is named after [Grandmaster Flash](https://en.wikipedia.org/wiki/Grandmaster_Flash).
+Flash is Slipmat.io's email bot that sends automated messages from `noreply@slipmat.io`. The bot is named after [Grandmaster Flash](https://en.wikipedia.org/wiki/Grandmaster_Flash).
 
 ### Frankie
 
-Frankie is the name of the purpose-built music optimized streaming server that powers the Slipmat.io streams. The focus is 100% on audio quality, the video is secondary. Frankie uses HLS technology for the stream which produces the latency for Slipmat streams of about 13 seconds. These are the recommended settings for streaming:
+Frankie is Slipmat.io's custom streaming server, optimized specifically for high-quality music transmission. Its core focus is delivering pristine audio. Frankie utilizes the [HLS protocol](#hls) with optimized settings, resulting in an average stream latency of ~13 seconds.
+
+**Recommended streaming settings:**
 
     Audio:
         format: AAC
@@ -31,3 +37,19 @@ Frankie is the name of the purpose-built music optimized streaming server that p
         keyframe interval: 2 s
 
 Frankie is named after [Frankie Knuckles](https://en.wikipedia.org/wiki/Frankie_Knuckles).
+
+### HLS
+
+HLS (HTTP Live Streaming) is a [video streaming protocol](https://en.wikipedia.org/wiki/HTTP_Live_Streaming) developed by Apple. It's a battle-tested solution that prioritizes stream stability over speed, making it the default choice for many streaming platforms, including Slipmat.
+
+HLS creates natural latency in the stream. The protocol breaks video into 2-4 second segments and maintains a buffer of 3-6 segments. This segmentation strategy results in typical latency between 6-24 seconds from source to viewer.
+
+### Live Page
+
+The Live Page is what you see when watching a Slipmat stream. It's a custom-built streaming page designed to give you the best possible listening experience. You can access it through any web browser, and it works great on mobile devices and TVs too.
+
+### WebRTC
+
+WebRTC is an [open-source technology](https://webrtc.org/) that enables real-time audio and video communication directly in web browsers. Unlike HLS, WebRTC prioritizes speed over stability, making it ideal for live interactions where minimal delay is crucial. While [Frankie](#frankie) (the current Live Page) uses HLS, Slipmat Circus is built on WebRTC.
+
+WebRTC can achieve ultra-low latency (under 1 second) between participants, but this comes with higher bandwidth requirements and potential stability issues on slower connections. While HLS streams are typically only bandwith-restricted, WebRTC streams need more stable connection with low jitter (usually means a wired connection).

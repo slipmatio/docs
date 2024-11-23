@@ -1,1 +1,3 @@
 # Reference
+
+- [Glossary](./glossary/)

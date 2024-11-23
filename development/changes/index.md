@@ -3,6 +3,7 @@ tags:
   - development
   - changelog
   - changes
+outline: 3
 ---
 
 # Slipmat v3 Docs Changelog
