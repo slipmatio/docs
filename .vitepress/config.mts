@@ -22,7 +22,7 @@ export default defineConfig({
         text: 'Guides',
         link: '/guides/',
         items: [
-          // { text: 'v3 Migration', link: '/guides/v3-migration/' },
+          { text: 'v3 Migration', link: '/guides/v3-migration/' },
           { text: 'Account', link: '/guides/account/' },
         ],
       },
@@ -31,7 +31,7 @@ export default defineConfig({
         link: '/reference/',
         items: [
           // { text: 'Apps And Features', link: '/reference/features/' },
-          // { text: 'Open Source', link: '/reference/open-source/' },
+          { text: 'Open Source', link: '/reference/open-source/' },
           { text: 'Glossary', link: '/reference/glossary/' },
         ],
       },

@@ -6,8 +6,6 @@ tags:
 
 # Slipmat Account
 
-Here's some basic info about your Slipmat account.
-
 ## Your Data
 
 Our business is making unforgettable musical experiences, not your data.

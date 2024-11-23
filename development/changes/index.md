@@ -10,11 +10,10 @@ outline: 3
 
 ### 2024-11-23
 
-- Added README.md.
-- Added LICENSE.md.
-- Upgraded Renovate config.
+- Added [v3 Migration page](/guides/v3-migration/)
+- Added [Open Source page](/reference/open-source/).
 - Added few more Glossary items.
-- Bumped all deps.
+- Added README and LICENSE
 
 ### 2024-01-07
 
