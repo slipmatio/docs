@@ -9,6 +9,7 @@ export default defineConfig({
     // https://vitepress.dev/reference/default-theme-config
     nav: [
       { text: 'Home', link: '/' },
+      { text: 'New Slipmat', link: 'https://next.slipmat.io' },
       { text: 'Old Slipmat', link: 'https://slipmat.io' },
       { text: 'Blog', link: 'https://blog.slipmat.io' },
     ],
