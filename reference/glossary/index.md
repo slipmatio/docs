@@ -12,6 +12,10 @@ This glossary explains common terms used on Slipmat, making it easier to underst
 
 While your Slipmat credentials are used to to create your Backstage account when you sign up to Slipmat, the two systems operate independently. Changes in one system do not affect the other.
 
+### Bad Gateway
+
+This is an error message you should not ever see but might sometimes still encounter. It means that the actual server that runs Slipmat.io is either down or having difficulties (and the proxy server that helps balancing the load is unable to fetch data from it, hence the term gateway). This is most likely to happen during major upgrades or planned maintenance and should resolve itself soon -- just refresh the page.
+
 ### Discord
 
 Meet other DJs and music makers in our community chat on Discord - a popular messaging app where you can share feedback and connect with fellow creators. [Join us on Discord](https://discord.gg/PCSwhkZ)! (Discord is run by another company, separate from Slipmat.)
