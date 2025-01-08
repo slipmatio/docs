@@ -14,15 +14,15 @@ All your data will automatically move to the new platform.
 
 ## Early Access
 
-::: danger Not Open Yet!
-Early Access opens in December 2024. We'll email all users when the doors open.
+::: danger Only for old Slipmat users
+Early Access opened in December 2024. We'll email all users when the public v3 launches.
 :::
 
 Everyone will eventually be upgraded to the new platform automatically but if you want an early access to see and test the new features, here's how to do it:
 
 1. [Sign in to your current Slipmat account](https://slipmat.io/m/logout-damnit/)
 2. Go to https://next.slipmat.io
-3. Click `I Want Early Access`
+3. Click `Early Access`
 
 That's it! After upgrading, you can start using the new platform right away.
 
