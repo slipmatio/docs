@@ -26,6 +26,7 @@ const { Layout } = DefaultTheme
             <li> <a href="https://backstage.slipmat.io">Backstage</a> </li>
             <li> <a href="https://discord.gg/PCSwhkZ">Discord</a> </li>
             <li> <a href="https://github.com/slipmatio/slipmatio/issues">Open issues</a> </li>
+            <li> <a href="https://stats.uptimerobot.com/bsMhkXtBq0">Slipmat Status Page</a> </li>
           </ul>
         </div>
       </main>
