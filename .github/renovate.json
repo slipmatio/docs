@@ -1,15 +1,12 @@
 {
-  "extends": ["config:recommended", "group:all", "schedule:weekly", ":widenPeerDependencies"],
+  "extends": ["config:recommended", "group:all"],
   "enabledManagers": ["npm"],
   "packageRules": [
     {
       "matchManagers": ["npm"],
       "automerge": true,
-      "minimumReleaseAge": "2 days"
-    },
-    {
-      "rangeStrategy": "auto",
-      "matchPackageNames": ["/npm/"]
+      "minimumReleaseAge": "3 days",
+      "automergeSchedule": ["after 4am and before 8am on Monday and Thursday"]
     }
   ],
   "timezone": "Europe/Helsinki",
