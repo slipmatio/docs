@@ -1,6 +1,10 @@
 {
   "extends": ["config:recommended", "group:all"],
   "enabledManagers": ["npm"],
+  "lockFileMaintenance": {
+    "enabled": true,
+    "automerge": true
+  },
   "packageRules": [
     {
       "matchManagers": ["npm"],
