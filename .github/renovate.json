@@ -14,5 +14,5 @@
     }
   ],
   "timezone": "Europe/Helsinki",
-  "dependencyDashboard": true
+  "dependencyDashboard": false
 }
