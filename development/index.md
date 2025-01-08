@@ -24,4 +24,4 @@ Everything related to Slipmat code lives on [Slipmat GitHub](https://github.com/
 
 The roadmap is a longer term plan of upcoming features and development. Things on this roadmap **will** change and the **final release date is when it's done**.
 
-The [v3 project board](https://github.com/orgs/slipmatio/projects/6/views/1) is a nice visual representation of the current status of the project.
+The [v3 project board](https://github.com/orgs/slipmatio/projects/6/views/1) is a nice visual representation of the current status of the project. There's also [Public milestones](https://github.com/slipmatio/slipmatio/milestones) which show the progress in smaller chunks.
