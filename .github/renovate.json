@@ -1,4 +1,5 @@
 {
+  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
   "extends": ["config:recommended", "group:all"],
   "enabledManagers": ["npm"],
   "prCreation": "immediate",
@@ -11,6 +12,7 @@
       "matchManagers": ["npm"],
       "automerge": true,
       "minimumReleaseAge": "3 days",
+      "prCreation": "immediate",
       "automergeSchedule": ["after 4am and before 8am on Monday and Thursday"]
     }
   ],
