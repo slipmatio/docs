@@ -8,9 +8,9 @@ tags:
 
 ## Your Data
 
-Our business is making unforgettable musical experiences, not your data.
+**Our business is making unforgettable musical experiences, not your data.**
 
-Your data is yours. We promise to keep it secure and never sell it or abuse it.
+Your data is yours. We keep it secure and never sell it or abuse it.
 
 ### How To Export Your Data
 

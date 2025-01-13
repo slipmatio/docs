@@ -24,6 +24,7 @@ export default defineConfig({
         items: [
           { text: 'v3 Migration', link: '/guides/v3-migration/' },
           { text: 'Account', link: '/guides/account/' },
+          { text: 'Technical', link: '/guides/technical/' },
         ],
       },
       {
