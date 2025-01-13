@@ -6,6 +6,12 @@ tags:
 
 # Technical Help
 
+## Supported Browsers
+
+Slipmat uses modern JavaScript techniques which requires a relatively modern (generally <5 years old) browser. If you see an error about browser support, please try a more modern browser.
+
+For a more technical explanation see [Vite Browser Compatibility](https://vite.dev/guide/build.html#browser-compatibility).
+
 ## How to Allow localStorage (Website Data) in Common Browsers
 
 Slipmat uses localStorage for optimizing the site performace. Here are instructions to enable it in case you see an error saying that it doesn't work. (Note: things like private browsing mode may disallow localStorage.)
