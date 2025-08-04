@@ -1,15 +1,15 @@
-# CLAUDE.md
+# Slipmat Docs Project Overview
 
-This file provides guidance to Claude Code (claude.ai/code) when working with code in this repository.
+This is a VitePress-based documentation site for a live streaming platform for musicians called Slipmat.io, hosted at https://docs.slipmat.io.
 
-## Project Overview
+## Tone
 
-This is a VitePress-based documentation site for Slipmat.io v3, hosted at https://docs.slipmat.io. The documentation covers user guides, technical references, and development information for the Slipmat.io platform.
+When writing, use casual and upbeat tone instead of formal language. Keep in mind that you're writing for musicians and artists, often not familiar with technical details and technology (other than their musical instruments) in general. The site is built for artists by artists and the tone of the language should support that.
 
 ## Common Commands
 
 - **Development server**: `npm run dev` or `pnpm dev`
-- **Build**: `npm run build` or `pnpm build` 
+- **Build**: `npm run build` or `pnpm build`
 - **Preview built site**: `npm run preview` or `pnpm preview`
 
 ## Architecture
@@ -29,11 +29,3 @@ This is a VitePress-based documentation site for Slipmat.io v3, hosted at https:
 - `index.md` - Homepage layout configuration (references SlipmatIndex.vue component)
 - `.vitepress/theme/SlipmatIndex.vue` - Custom homepage component
 - Package manager: Uses pnpm (note pnpm-workspace.yaml and pnpm-lock.yaml)
-
-## Development Notes
-
-- Site uses force-dark appearance mode
-- Includes Plausible analytics for docs.slipmat.io domain
-- Local search provider configured
-- Edit links point to GitHub repository for easy contribution
-- Content is organized in a hierarchical structure matching the sidebar navigation
