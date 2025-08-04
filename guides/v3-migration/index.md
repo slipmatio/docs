@@ -22,7 +22,7 @@ Everyone will eventually be upgraded to the new platform automatically but if yo
 
 1. [Sign in to your current Slipmat account](https://slipmat.io/m/logout-damnit/)
 2. Go to https://next.slipmat.io
-3. Click `Early Access`
+3. Click `Login`
 
 That's it! After upgrading, you can start using the new platform right away.
 
