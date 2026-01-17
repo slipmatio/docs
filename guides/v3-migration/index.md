@@ -1,33 +1,38 @@
 # Version 3 Migration
 
-After 5 years of building features, tools, and experimenting with new ideas, Slipmat's Version 3 is here! This time has been spent creating building blocks for better live streaming experience, developing tools for artists, and testing different approaches to improve the experience for both performers and listeners. You can see some of our experimental work, like the [Show Scripter](https://scripter.labs.slipmat.io), on our [Labs page](https://labs.slipmat.io).
-
-## The Plan
-
-Instead of releasing everything at once, we'll introduce new features gradually:
-
-1. Current users get an early access to Version 3
-2. Once all features from the old site are tested and working in Version 3, we'll move everyone to the new platform
-
-All your data will automatically move to the new platform.
+Slipmat version 3 does not share any code with the old v2 platform. But we do have access to the old data so we've tried to make the transition as easy and simple as possible for all users.
 
 ## Early Access
 
-::: danger Only for old Slipmat users
-Early Access has been extended in December 2025. We'll email all existing users when the public v3 launches.
-:::
+Early access is open until January 21, 2026.
 
-Everyone will eventually be upgraded to the new platform automatically but if you want an early access to see and test the new features, here's how to do it:
+1. [Sign in at v2 site](https://slipmat.io/m/logout-damnit/)
+2. Click the migration link on the homepage or [open v3 site manually](https://next.slipmat.io/chat/)
+3. When you open the v3 site first time while logged in to the old site, your account will be automatically migrated - no migration steps needed!
 
-1. Head over to https://next.slipmat.io/register/
-   1. If you have a v2 account, you can [sign in to v2](https://slipmat.io/m/logout-damnit/) to have your v3 account created automatically upon next [v3 login](https://next.slipmat.io/login/), or request a registration link via email. All your artist details will be migrated automatically.
-   2. If you are new to Slipmat, you can register a fresh account manually (note that artist registration is not yet open!).
+If you missed this boat, no worries, just read the following sections and you can migrate your account in a couple of clicks.
 
-That's it! After upgrading, you can start using the new platform right away.
+## Migrating User Account - Step By Step
+
+Trying to log in or register to the new site with an email that has already been used on the legacy site will prompt you to verify it first. Here's how the flow goes:
+
+1. [Log In](https://next.slipmat.io/login/) or Register, and you'get a notification saying "You need to verify your account".
+2. Open your email and click the link (or manually open the address) to open the verification page.
+3. When you open the page, your account will be verified, your old data will be migrated, and you'll be logged in automatically.
+
+That's it! Welcome aboard!
+
+## Migrating Artist Profile - Step By Step
+
+1. First complete the user account migration. When you migrate your old user account that is connected to a v2 artist profile, your account will get a "OG DJ" flag that allows you to migrate your artist data.
+2. After logging in you'll see "Artist" tab. Click that and you'll be redirected to an onboarding page.
+3. Read the instructions and lick the button. The onboarding is instant, you'll get your new streaming key and instructions and you can start streaming right away.
+
+That's it!
 
 ## Having Problems?
 
 If you have any problems:
 
 1. Try using a different browser (Slipmat v3 requires a modern browser)
-2. If issues continue, get help on Discord or Backstage
+2. If issues continue, ask for help on our Discord

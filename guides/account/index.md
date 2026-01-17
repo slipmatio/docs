@@ -25,7 +25,7 @@ Your data is in a big JSON file, which is a machine-readable and easy to use for
 - Your profile data (ie. everything that you fill in your profile)
 - Your listening activity (to make your browsing experience better)
 - Your activity on the site (to help us to make the site better)
-- Public chat logs (only available to artists)
+- Public chat logs (available to the artists)
 
 ## Creating Your Account
 
