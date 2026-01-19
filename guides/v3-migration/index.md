@@ -4,7 +4,7 @@ Slipmat version 3 does not share any code with the old v2 platform. But we do ha
 
 ## Early Access
 
-Early access is open until January 21, 2026.
+Early access is open until January 28, 2026.
 
 1. [Sign in at v2 site](https://slipmat.io/m/logout-damnit/)
 2. Click the migration link on the homepage or [open v3 site manually](https://next.slipmat.io/chat/)
@@ -26,9 +26,11 @@ That's it! Welcome aboard!
 
 1. First complete the user account migration. When you migrate your old user account that is connected to a v2 artist profile, your account will get a "OG DJ" flag that allows you to migrate your artist data.
 2. After logging in you'll see "Artist" tab. Click that and you'll be redirected to an onboarding page.
-3. Read the instructions and lick the button. The onboarding is instant, you'll get your new streaming key and instructions and you can start streaming right away.
+3. Read the instructions and click the button. The onboarding is instant, you'll get your new streaming key and instructions and you can start streaming right away. That's it!
 
-That's it!
+::: warning Note
+Slipmat v2 was created in 2016 and some of the older artist metadata is **really** old by now. You should set up a new good quality artist photo and default event photo to make sure your marketing looks sharp!
+:::
 
 ## Having Problems?
 
