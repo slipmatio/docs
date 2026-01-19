@@ -2,7 +2,7 @@
 
 Our mission is to create outstanding musical experiences and provide affordable tools for artists.
 
-We see music as an art but we also understand that it's a source of income for many.
+We see music as an art but we also understand that it's a source of income for many. Our goal is to help artists build a fanbase and sell their work without having to do unethical data collecting or lock everything into a walled garden.
 
 ## Advertising
 
