@@ -1,6 +1,6 @@
 # Open Source
 
-Slipmat embraces open source. We've comtributed back to the community by open sourcing some of the tools we've built for ourselves so that others could use and benefit from them too (and of course to make it easier to people to contribute).
+Slipmat embraces open source. We've contributed back to the community by open sourcing some of the tools we've built for ourselves so that others could use and benefit from them too (and of course to make it easier to people to contribute).
 
 All our projects are on our GitHub page: https://github.com/slipmatio
 

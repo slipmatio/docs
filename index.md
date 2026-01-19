@@ -20,6 +20,6 @@ hero:
       text: Reference
       link: /reference/
     - theme: alt
-      text: Contributing
-      link: /development/contributing/
+      text: Philosophy
+      link: /meta/philosophy/
 ---

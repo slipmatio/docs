@@ -27,10 +27,6 @@ Your data is in a big JSON file, which is a machine-readable and easy to use for
 - Your activity on the site (to help us to make the site better)
 - Public chat logs (available to the artists)
 
-## Creating Your Account
-
-TBA
-
 ## How To Delete Your Account
 
 Find `Delete Account` heading from [your account page](https://slipmat.io/account/). After you click the delete button and confirm your choice, your data will be scheduled for deletion and you will be logged out immediately. We'll send you an email to confirm that all your data has been deleted.

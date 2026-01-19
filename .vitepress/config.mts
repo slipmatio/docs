@@ -43,18 +43,27 @@ export default defineConfig({
         text: 'Reference',
         link: '/reference/',
         items: [
-          // { text: 'Apps And Features', link: '/reference/features/' },
           { text: 'Frankie', link: '/reference/frankie/' },
-          { text: 'Open Source', link: '/reference/open-source/' },
           { text: 'Glossary', link: '/reference/glossary/' },
+        ],
+      },
+      {
+        text: 'Meta',
+        link: '/meta/',
+        items: [
+          { text: 'Philosophy', link: '/meta/philosophy/' },
+          { text: 'Monetization', link: '/meta/monetization/' },
+          { text: 'Code of Conduct', link: '/meta/code-of-conduct/' },
         ],
       },
       {
         text: 'Development',
         link: '/development/',
         items: [
+          { text: 'Open Source', link: '/development/open-source/' },
           { text: 'Contributing', link: '/development/contributing/' },
-          { text: 'Changelog', link: '/development/changes/' },
+          // Let's put this back when we're actually updating it!
+          // { text: 'Changelog', link: '/development/changes/' },
         ],
       },
     ],
