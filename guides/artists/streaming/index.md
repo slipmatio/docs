@@ -7,15 +7,15 @@ tags:
 
 Streaming on Slipmat works with any RTMP-capable software or device. (See [Frankie reference](/reference/frankie/).) Slipmat streams, however, are a bit different than in most platforms. We do this for better listener experience, better discoverability, and SEO.
 
-## Stream Types
+## Event Types
 
-### Scheduled Streams
+### Scheduled events
 
-Scheduled streams are the "classic" and most typical way to stream on Slipmat. You schedule a time for you show, and on the day you start and end the show manually. Listeners can subscribe to scheduled event notifications, put your shows in a calendar, and join the event 30 minutes before the show starts. Event warmup is a vistual verion of the fun part of any live gig evening when you come together before the show starts to hang around.
+Scheduled events are the "classic" and most typical way to stream on Slipmat. You schedule a time for you show, and on the day you start and end the show manually. Listeners can subscribe to scheduled event notifications, put your shows in a calendar, and join the event 30 minutes before the show starts. Event warmup is a vistual verion of the fun part of any live gig evening when you come together before the show starts to hang around.
 
-### Ad Hoc Streams
+### Ad Hoc events
 
-Ad Hoc streams are a new thing for Slipmat v3. This is the typical way most platforms implement streaming; you just fire up your stream and then you're live. This is great for spur of the moment streams when you just want to spin some records or hang around with your fans but it's not so great for marketing. Ad Hoc streams start as soon as you start streaming and they only notify those fans that have explicitly opted in for ad hoc show notifications.
+Ad hoc events are a new thing for Slipmat v3. This is the typical way most platforms implement streaming; you just fire up your stream and then you're live. This is great for spur of the moment streams when you just want to spin some records or hang around with your fans but it's not so great for marketing. Ad Hoc events start as soon as you start streaming and they only notify those fans that have explicitly opted in for ad hoc show notifications.
 
 ## How To Stream
 
@@ -36,8 +36,10 @@ Ad Hoc streams are a new thing for Slipmat v3. This is the typical way most plat
 #### Ad Hoc
 
 1. Start the stream, verify that the status indicator lights up.
-2. The stream will **automatically start** in 2 minutes. You don't need to do anything else, the live status is published in your artist chat channel.
-3. When you disconnect the stream, the event will automatically be shut down in 3 minutes.
+2. The stream will **automatically start** in 60 seconds. You don't need to do anything else, the live status is published in your artist chat channel.
+3. When you disconnect the stream, the event will automatically be shut down in 2 minutes.
+
+See also [step by step How to test streaming](/howto/artist/test-streaming/).
 
 ### Stream disconnections and other exceptions
 

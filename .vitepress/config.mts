@@ -40,8 +40,11 @@ export default defineConfig({
         ],
       },
       {
+        text: 'Howto',
+        items: [{ text: 'How To Test Streaming', link: '/howto/artist/test-streaming/' }],
+      },
+      {
         text: 'Reference',
-        link: '/reference/',
         items: [
           { text: 'Frankie', link: '/reference/frankie/' },
           { text: 'Glossary', link: '/reference/glossary/' },
@@ -49,7 +52,6 @@ export default defineConfig({
       },
       {
         text: 'Meta',
-        link: '/meta/',
         items: [
           { text: 'Philosophy', link: '/meta/philosophy/' },
           { text: 'Monetization', link: '/meta/monetization/' },
