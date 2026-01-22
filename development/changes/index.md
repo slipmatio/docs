@@ -11,7 +11,7 @@ outline: 3
 ### 2024-11-23
 
 - Added [v3 Migration page](/guides/v3-migration/)
-- Added [Open Source page](/reference/open-source/).
+- Added [Open Source page](/development/open-source/).
 - Added few more Glossary items.
 - Added README and LICENSE
 
