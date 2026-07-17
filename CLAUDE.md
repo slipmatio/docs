@@ -1,31 +1,33 @@
-# Slipmat Docs Project Overview
+# Slipmat Docs
 
-This is a VitePress-based documentation site for a live streaming platform for musicians called Slipmat.io, hosted at https://docs.slipmat.io.
+This is a VitePress-based documentation site for a live-streaming platform for musicians called Slipmat.io, hosted at <https://docs.slipmat.io>
+
+**Important**: read local repo info and other notes from `LOCAL_NOTES.md` before ANY task.
 
 ## Tone
 
-When writing, use casual and upbeat tone instead of formal language. Keep in mind that you're writing for musicians and artists, often not familiar with technical details and technology (other than their musical instruments) in general. The site is built for artists by artists and the tone of the language should support that.
+You're writing for artists, who are often not familiar with technical terms and Web technology in general (other than their musical instruments), so avoid technical jargon. The site is built for artists by artists, and the tone of the language should support that. Do not overdo it; keep the overall tone professional.
 
-## Common Commands
+Write tightly, do not add any unneeded filler. All documentation should have as long as possible shelf-life; avoid unnecessary details and everything that rots as soon as the code changes slightly.
 
-- **Development server**: `npm run dev` or `pnpm dev`
-- **Build**: `npm run build` or `pnpm build`
-- **Preview built site**: `npm run preview` or `pnpm preview`
+## Writing Rules
 
-## Architecture
+- **Never** invent things. Every single sentence and claim must be based on reality. Either actual source code or _explicit_ statement from the user. Do not add ANY unverified claims or unneeded filler.
 
-- **Framework**: VitePress (static site generator based on Vite + Vue)
-- **Content Structure**:
-  - `/guides/` - User-focused guides (v3 migration, account management, artist guides, technical guides)
-  - `/reference/` - Technical reference materials (Frankie, open source info, glossary)
-  - `/development/` - Development documentation (contributing, changelog)
-- **Configuration**: `.vitepress/config.mts` contains site configuration, navigation, and sidebar structure
-- **Theme**: Custom theme files in `.vitepress/theme/` with custom styling and components
-- **Content Format**: Markdown files with frontmatter for page configuration
+### Terms
+
+- `Slipmat` when talking about the site in general, `Slipmat.io` when extra formal or talking about the actual Web site
+- `Web`, not `web`
 
 ## Key Files
 
 - `.vitepress/config.mts` - Main VitePress configuration
 - `index.md` - Homepage layout configuration (references SlipmatIndex.vue component)
+- `.vitepress/theme/` - Custom styling and components
 - `.vitepress/theme/SlipmatIndex.vue` - Custom homepage component
-- Package manager: Uses pnpm (note pnpm-workspace.yaml and pnpm-lock.yaml)
+
+## Commands
+
+- **Development server**: `pnpm dev`
+- **Build**: `pnpm build`
+- **Preview built site**: `pnpm preview`

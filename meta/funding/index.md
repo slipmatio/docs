@@ -1,4 +1,4 @@
-# Monetization
+# Funding
 
 Slipmat is a **100% community-funded project**. We've been around since 2016 and unlike the dozens of commercial alternatives over the years, we are not planning to go away as long as we have awesome supporters like you.
 

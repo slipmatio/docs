@@ -31,11 +31,18 @@ export default defineConfig({
         items: [
           { text: 'v3 Migration', link: '/guides/v3-migration/' },
           { text: 'Account', link: '/guides/account/' },
+          { text: 'Events', link: '/guides/events/' },
+          { text: 'The Live Page', link: '/guides/live-page/' },
+          { text: 'Chat', link: '/guides/chat/' },
           {
             text: 'For Artists',
             link: '/guides/artists/',
-            items: [{ text: 'Streaming', link: '/guides/artists/streaming/' }],
+            items: [
+              { text: 'Artist Profile', link: '/guides/artists/profile/' },
+              { text: 'Streaming & Going Live', link: '/guides/artists/streaming/' },
+            ],
           },
+          { text: 'AI Tools', link: '/guides/ai-tools/' },
           { text: 'Technical', link: '/guides/technical/' },
         ],
       },
@@ -46,6 +53,7 @@ export default defineConfig({
       {
         text: 'Reference',
         items: [
+          { text: 'API', link: '/reference/api/' },
           { text: 'Frankie', link: '/reference/frankie/' },
           { text: 'Glossary', link: '/reference/glossary/' },
         ],
@@ -54,7 +62,7 @@ export default defineConfig({
         text: 'Meta',
         items: [
           { text: 'Philosophy', link: '/meta/philosophy/' },
-          { text: 'Monetization', link: '/meta/monetization/' },
+          { text: 'Funding', link: '/meta/funding/' },
           { text: 'Code of Conduct', link: '/meta/code-of-conduct/' },
         ],
       },

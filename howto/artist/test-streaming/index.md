@@ -1,20 +1,41 @@
-# How To Test Streaming
+---
+tags:
+  - artist
+  - streaming
+---
 
-Ad Hoc events are the easiest way to test streaming on Slipmat.
+# How To Test Your Stream
 
-::: danger Be early!
-Ad Hoc events can only be streamed when your next scheduled event is at least 60 minutes away or you don't have one lined up.
+The way to test your stream on Slipmat is a **soundcheck**: a private, unlisted test run that lets you
+check your audio and video are right **before** you go live in front of an audience.
+
+A soundcheck is just for you. It's unlisted and reachable only by its own link, it never appears in
+Slipmat's listings, it doesn't mark you as "live", and it isn't part of your event history. You can
+share the link with a collaborator if you'd like a second pair of ears, but no one finds it on their
+own.
+
+## Run a soundcheck
+
+1. Start a soundcheck from your [Artist Dashboard](https://next.slipmat.io/artist/) — do this
+   **first**, before connecting your stream.
+2. Connect your streamer using your usual Streaming URL and Key (both are in your dashboard). Your
+   video appears on the soundcheck page once the stream connects.
+3. Open the soundcheck page to see and hear exactly what your audience would. Check that your audio
+   sounds right and your video looks the way you want.
+4. End the soundcheck when you're done. If you forget, it also closes on its own after a while once no
+   stream is connected.
+
+::: tip Start the soundcheck first
+A soundcheck is a cold start: you can only begin one when you have no live or upcoming-live show
+running. Start the soundcheck first, then connect your stream — a clean, private check with nothing
+public involved.
 :::
 
-## Test Ad Hoc Stream
+While you're connected, your stream monitor shows whether Slipmat is receiving your stream and flags
+any quality problems it detects, such as low audio bitrate, a missing audio channel, or an unsuitable
+resolution. Fix anything it warns you about before your real show.
 
-This is the recommended way to test streaming on Slipmat. It's easy, fast, and the Live Page works exactly as with scheduled pages.
+## Related
 
-1. Set up your streamer. You'll find the needed Streaming URL and Key from your [Artist dashboard](https://next.slipmat.io/artist/).
-2. Start streaming.
-3. Open your [Stream Monitor](https://next.slipmat.io/artist/stream/). It should show that the stream is connected and an Ad Hoc event is about to start.
-4. When the event has started, click the link to the public event page to verify everything works (the URL is always `/[artist-slug]/live/`)
-
-::: warning Warning: Ad hoc event chat is your artist chat channel
-Ad hoc events use your artist chat channel for the event chat. Whatever you post there stays there for everyone to see!
-:::
+- [Streaming & Going Live](/guides/artists/streaming/) — going on the air for a real show
+- [Frankie reference](/reference/frankie/) — the exact encoder settings to match
