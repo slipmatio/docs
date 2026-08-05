@@ -41,9 +41,13 @@ Once connected, the assistant can help you with:
   it should happen.
 - **Your stats** — review how a past show did (audience, chat, hype, song requests, tips, and
   follower changes) and look at trends across your shows and your follower growth over time.
+- **Your chat history** — read back the chat from one of your own events, either the whole thing or
+  just the links, shared music, or system messages.
+- **Your audience** — list the fans of your artist and look up a public user profile by username.
 - **Staying in the loop** — search Slipmat's [Backstage](/reference/glossary/#backstage) community forum and
   catch up on the latest artist news and release notes.
-- **Reporting bugs** — walk you through filing a bug report, checking for duplicates first.
+- **Reporting bugs** — walk you through filing a bug report, checking for duplicates first, and
+  attaching a screenshot if you have one.
 
 ::: warning Use proper assistant permissions
 When you authenticate the assistant you give it **full access** to read _and_ write your data. Assistant cannot directly delete your data but it can, for example, permanently edit your profile data. Set your assistant permission settings in the tool you are using so that you are comfortable that it won't accidentally change things you didn't mean to. Remember that **there is no undo**! Reading your data never changes anything.
@@ -55,10 +59,10 @@ The connection is deliberately limited to keep your account safe. The assistant 
 
 - Start, stop, or cancel a live show, or control your stream
 - Run ad hoc shows or soundchecks
-- Delete events or your profile
-- Upload profile or event photos — new events use your default event photo
-- Do anything a member of your artist team couldn't already do — it works within your existing
-  permissions
+- Delete an event or your profile — the only thing it can delete is a proposed event
+- Upload profile or event photos — new events use your default event photo. (Bug report screenshots
+  are the one exception.)
+- Do anything you couldn't already do yourself — it works within your existing permissions
 
 For any of these, use your Artist Dashboard as usual.
 
@@ -119,12 +123,14 @@ This MCP server is in very early stages of development, do post your questions, 
 
 ## If something goes wrong
 
-- **You logged in, but the assistant sees no artists.** Your account signed in fine but isn't a
-  member of any artist. Ask a teammate to add you, or check that you're using the right account.
-- **The assistant can't sign in at all.** The account you're connecting must be an artist account.
-- **The assistant can't edit an event.** Some actions need the right permission on your artist team,
-  and only upcoming (planned or scheduled) events can be edited — live, finished, or cancelled shows
-  can't.
+- **You logged in, but the assistant sees no artists.** The artist tools only work for artists you
+  own. If you're a member of an artist but not its owner, the assistant won't see it — check that
+  you're using the right account.
+- **The assistant can't edit your profile.** Editing profile details also needs the manage-artist
+  permission, on top of ownership.
+- **The assistant can't edit an event.** Only upcoming (planned or scheduled) events can be edited —
+  live, finished, or cancelled shows can't. Setlists are the exception; those can be updated at any
+  point.
 
 ## Related
 
