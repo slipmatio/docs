@@ -27,13 +27,57 @@ which ones need you to be signed in. Whenever this page and the schema disagree,
 - The currently documented endpoints are mostly **read-only** (you fetch information; you don't change anything through them).
 - Most endpoints require authentication using an API key.
 
-### Signing in
+## Authentication
 
-When an endpoint needs authentication, you can identify yourself with a **Bearer token** — an API key sent in the `Authorization` header, for use outside the browser.
+Most endpoints need to know who you are. You identify yourself with an **API key** — a long secret
+string that stands in for your login when you're working outside the browser.
 
-The interactive documentation marks which endpoints require this.
+The interactive documentation marks which endpoints require a key and which don't.
 
-There's currently no way to create API keys via the API itself. Ask Uninen to create one for you.
+### Getting your API key
+
+Your key lives on the [API Key](https://slipmat.io/account/api-key/) tab in your account settings.
+One button creates it.
+
+::: tip Turn on Experimental features first
+The **API Key** tab only appears if you have **Experimental features** turned on in your user
+settings. If you don't see the tab, turn that setting on and come back.
+:::
+
+::: warning You only see the key once
+The key is shown **once**, right after it's created. Copy it and store it somewhere safe — a password
+manager is ideal. Once you leave the page, there's no way to look it up again.
+:::
+
+You have one key at a time.
+
+### Losing or rotating your key
+
+Lost your key, or want a fresh one? Click **Reset key** on the same tab. This happens
+**immediately**: the old key stops working and the new one is shown to you once, exactly like the
+first time. Anything still using the old key will stop working until you update it.
+
+### Using your key
+
+Send the key in the `Authorization` header of every request, with the word `Bearer` in front of it:
+
+```
+Authorization: Bearer YOUR_API_KEY
+```
+
+For example, with `curl`:
+
+```bash
+curl -H "Authorization: Bearer YOUR_API_KEY" https://api.slipmat.io/
+```
+
+::: warning Treat your key like a password
+Your key acts on your behalf. Don't share it, and keep it out of anything public — read it from an
+environment variable or a config file you don't share.
+:::
+
+Rather have an AI assistant work with your account than write code yourself? See
+[Connecting an AI Assistant](/guides/ai-tools/) — it uses your normal login, so it needs no API key.
 
 ### Hacking
 
