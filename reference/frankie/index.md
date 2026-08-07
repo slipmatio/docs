@@ -32,7 +32,7 @@ It was built for live coding and similar screen sharing, where scaling the pictu
 
 What is different from the normal endpoint:
 
-- Your picture is passed through untouched, so you can send resolutions above 1080p.
+- Your video is passed through untouched, so you can send resolutions above 1080p.
 - Audio is untouched here as well.
 - Only the one quality you send is offered, so listeners on slower connections cannot drop to a lower one.
 - A **2 second keyframe interval** is required. Without it the stream will not be cut into segments correctly.
