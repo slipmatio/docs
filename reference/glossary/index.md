@@ -66,6 +66,10 @@ A crew role on an artist profile. A roadie helps run a show by moderating the ch
 
 A show planned in advance for a set time (always on the hour). Its doors open 30 minutes before showtime during [warmup](#warmup), and the artist starts and ends it manually. See [Events](/guides/events/).
 
+### Sentry
+
+[Sentry is an application monitoring software](https://sentry.io) that we use for monitoring and debugging issues. Any unhandled error in our API or on the Website is automatically caught by Sentry and reported as an automated bug report with as much anonymized information as possible to make debugging easier. Sentry helps us catch and fix bugs faster. We configure it in a way that minimizes personally identifiable information storing so things like IP-addresses or emails are never send to Sentry (but for example user id from authenticated users is).
+
 ### Soundcheck
 
 A private, unlisted test run of your stream, used to check your audio and video before going live. A soundcheck never appears in Slipmat's listings and doesn't mark you as live. See [How To Test Your Stream](/howto/artist/test-streaming/).
