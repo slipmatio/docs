@@ -5,7 +5,7 @@ layout: home
 
 hero:
   name: 'Slipmat.io Docs'
-  tagline: Documentation for Slipmat.io v3
+  tagline: Documentation for Slipmat.io
   image:
     src: ./img/slipmat_logo.svg
     alr: Slipmat logo

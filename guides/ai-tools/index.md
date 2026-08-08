@@ -7,9 +7,9 @@ tags:
 # Connecting an AI Assistant
 
 Slipmat lets you connect an AI assistant — like ChatGPT or Claude — to your artist account, so you can manage
-your profile, schedule shows, check your stats, and search release notes and documentation just by asking in plain language. Instead of
+your profile, schedule events, check your stats, and search release notes and documentation just by asking in plain language. Instead of
 clicking through your dashboard, you can say "Schedule a set for next Friday at 10pm" or "How did my
-last show do?" and let the assistant do the work.
+last event do?" and let the assistant do the work.
 
 This tool is meant for those who are interested in hacking with LLMs. Everything the assistant can do, you can also do yourself in your Artist Dashboard. Think of it as a hands-free way to get to the same place.
 
@@ -36,14 +36,16 @@ what it costs, and how it handles your conversation are up to that company.
 Once connected, the assistant can help you with:
 
 - **Your artist profile** — view it and update your artist profile details.
-- **Your events** — list your shows, schedule new ones, edit upcoming ones, and work with drafts.
-- **Proposed events** — propose a show with a few candidate times and let your listeners vote on when
-  it should happen.
-- **Your stats** — review how a past show did (audience, chat, hype, song requests, tips, and
-  follower changes) and look at trends across your shows and your follower growth over time.
+- **Your events** — list your events, schedule new ones, edit upcoming ones, and work with drafts.
+- **Proposed events** — propose an event with a few candidate times and let your listeners vote on
+  when it should happen.
+- **Your stats** — review how a past event did (audience, chat, hype, song requests, tips, and
+  follower changes) and look at trends across your events and your follower growth over time.
 - **Your chat history** — read back the chat from one of your own events, either the whole thing or
   just the links, shared music, or system messages.
 - **Your audience** — list the fans of your artist and look up a public user profile by username.
+- **Your activity log** — read back your own or your artist's [activity log](/guides/activity-log/)
+  from the last 30 days.
 - **Staying in the loop** — search Slipmat's [Backstage](/reference/glossary/#backstage) community forum and
   catch up on the latest artist news and release notes.
 - **Reporting bugs** — walk you through filing a bug report, checking for duplicates first, and
@@ -57,8 +59,8 @@ When you authenticate the assistant you give it **full access** to read _and_ wr
 
 The connection is deliberately limited to keep your account safe. The assistant **cannot**:
 
-- Start, stop, or cancel a live show, or control your stream
-- Run ad hoc shows or soundchecks
+- Start, stop, or cancel a live event, or control your stream
+- Run ad hoc events or soundchecks
 - Delete an event or your profile — the only thing it can delete is a proposed event
 - Upload profile or event photos — new events use your default event photo. (Bug report screenshots
   are the one exception.)
@@ -129,11 +131,11 @@ This MCP server is in very early stages of development, do post your questions, 
 - **The assistant can't edit your profile.** Editing profile details also needs the manage-artist
   permission, on top of ownership.
 - **The assistant can't edit an event.** Only upcoming (planned or scheduled) events can be edited —
-  live, finished, or cancelled shows can't. Setlists are the exception; those can be updated at any
+  live, finished, or cancelled events can't. Setlists are the exception; those can be updated at any
   point.
 
 ## Related
 
 - [Artist Profile](/guides/artists/profile/) — everything the assistant can help you edit
-- [Events](/guides/events/) — the kinds of shows and how each one works
+- [Events](/guides/events/) — the kinds of events and how each one works
 - [Streaming & Going Live](/guides/artists/streaming/) — going live (which you always do yourself)

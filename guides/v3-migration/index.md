@@ -6,7 +6,7 @@ Slipmat version 3 does not share any code with the old v2 platform. But we do ha
 
 Trying to log in or register to the new site with an email that has already been used on the legacy site will prompt you to verify it first. Here's how the flow goes:
 
-1. [Log In](https://next.slipmat.io/login/) or reset your password if you haven't set one for v3 yet.
+1. [Log In](https://slipmat.io/login/) or reset your password if you haven't set one for v3 yet.
 2. Open your email and click the link (or manually open the address) to open the verification page.
 3. When you open the page, your account will be verified, your old data will be migrated, and you'll be logged in automatically.
 

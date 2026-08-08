@@ -16,7 +16,7 @@ own.
 
 ## Run a soundcheck
 
-1. Start a soundcheck from your [Artist Dashboard](https://next.slipmat.io/artist/) — do this
+1. Start a soundcheck from your [Artist Dashboard](https://slipmat.io/artist/) — do this
    **first**, before connecting your stream.
 2. Connect your streamer using your usual Streaming URL and Key (both are in your dashboard). Your
    video appears on the soundcheck page once the stream connects.
@@ -26,16 +26,16 @@ own.
    stream is connected.
 
 ::: tip Start the soundcheck first
-A soundcheck is a cold start: you can only begin one when you have no live or upcoming-live show
+A soundcheck is a cold start: you can only begin one when you have no live or upcoming-live event
 running. Start the soundcheck first, then connect your stream — a clean, private check with nothing
 public involved.
 :::
 
 While you're connected, your stream monitor shows whether Slipmat is receiving your stream and flags
 any quality problems it detects, such as low audio bitrate, a missing audio channel, or an unsuitable
-resolution. Fix anything it warns you about before your real show.
+resolution. Fix anything it warns you about before your real event.
 
 ## Related
 
-- [Streaming & Going Live](/guides/artists/streaming/) — going on the air for a real show
+- [Streaming & Going Live](/guides/artists/streaming/) — going on the air for a real event
 - [Frankie reference](/reference/frankie/) — the exact encoder settings to match

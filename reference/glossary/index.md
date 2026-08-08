@@ -6,9 +6,13 @@ outline: 3
 
 This glossary explains common terms used on Slipmat, making it easier to understand our platform and its features.
 
+### Activity Log
+
+The plain-language record of what happened on your account and on your artist — who did what, and what Slipmat did automatically. Kept for 30 days. See [Activity Log](/guides/activity-log/).
+
 ### Ad Hoc Event
 
-A spur-of-the-moment show that goes live as soon as you start streaming and ends automatically when you stop. It uses your artist chat channel rather than a dedicated one, and only fans who've opted in to ad hoc notifications are told about it. See [Events](/guides/events/).
+A spur-of-the-moment event that goes live as soon as you start streaming and ends automatically when you stop. It uses your artist chat channel rather than a dedicated one, and only fans who've opted in to ad hoc notifications are told about it. See [Events](/guides/events/).
 
 ### Backstage
 
@@ -22,7 +26,7 @@ This is an error message you should never see but might sometimes encounter. It 
 
 ### Cooldown
 
-When an artist stops the stream, the show enters a cooldown period — it has ended, but the chat stays open for a while so people can hang around. The exception is when a redirect to a next event is set: in that case the audience is forwarded on immediately instead of going into cooldown. See [Events](/guides/events/).
+When an artist stops the stream, the event enters a cooldown period — it has ended, but the chat stays open for a while so people can hang around. The exception is when a redirect to a next event is set: in that case the audience is forwarded on immediately instead of going into cooldown. The cooldown is also the window during which a scheduled event can be [resumed](#resume). See [Events](/guides/events/).
 
 ### Crew
 
@@ -34,7 +38,7 @@ Meet other DJs and music makers in our community chat on Discord - a popular mes
 
 ### Fan
 
-Someone who follows an artist. Fans can be given access to members-only shows and can receive the artist's notifications. See [Artist Profile](/guides/artists/profile/).
+Someone who follows an artist. Fans can be given access to members-only events and can receive the artist's notifications. See [Artist Profile](/guides/artists/profile/).
 
 ### Flash
 
@@ -52,7 +56,7 @@ HLS creates natural latency in the stream. The protocol breaks video into 2-4 se
 
 ### Hype
 
-The real-time reactions — hearts, raised hands and more — that listeners send during a live show. They appear on the hype bar on the [Live Page](/guides/live-page/) for everyone to see.
+The real-time reactions — hearts, raised hands and more — that listeners send during a live event. They appear on the hype bar on the [Live Page](/guides/live-page/) for everyone to see.
 
 ### Live Page
 
@@ -60,11 +64,15 @@ The Live Page is what you see when watching a Slipmat stream. It's a custom-buil
 
 ### Roadie
 
-A crew role on an artist profile. A roadie helps run a show by moderating the chat, without the ability to change the artist's settings or events. See [Artist Profile](/guides/artists/profile/).
+A crew role on an artist profile. A roadie helps run an event by moderating the chat, without the ability to change the artist's settings or events. See [Artist Profile](/guides/artists/profile/).
+
+### Resume
+
+Putting a scheduled event that has already ended back on the air. Available for 30 minutes after the event ends: the event returns to [warmup](#warmup), keeping its page, address and chat, and the artist starts it again. See [How Events Start And End](/guides/events/lifecycle/).
 
 ### Scheduled Event
 
-A show planned in advance for a set time (always on the hour). Its doors open 30 minutes before showtime during [warmup](#warmup), and the artist starts and ends it manually. See [Events](/guides/events/).
+An event planned in advance for a set time (always on the hour). Its doors open 30 minutes before the start time during [warmup](#warmup), and the artist starts and ends it manually. See [Events](/guides/events/).
 
 ### Sentry
 

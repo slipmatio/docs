@@ -3,7 +3,7 @@ import { defineConfig } from 'vitepress'
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
   title: 'Slipmat.io Docs',
-  description: 'Documentation for Slipmat.io platform v3',
+  description: 'Documentation for the Slipmat.io platform',
   head: [
     ['link', { rel: 'icon', href: '/favicon.ico' }],
     [
@@ -19,8 +19,7 @@ export default defineConfig({
     // https://vitepress.dev/reference/default-theme-config
     nav: [
       { text: 'Home', link: '/' },
-      { text: 'Slipmat v3', link: 'https://next.slipmat.io' },
-      { text: 'Slipmat v2', link: 'https://slipmat.io' },
+      { text: 'Slipmat.io', link: 'https://slipmat.io' },
       { text: 'Blog', link: 'https://blog.slipmat.io' },
     ],
 
@@ -31,8 +30,13 @@ export default defineConfig({
         items: [
           { text: 'v3 Migration', link: '/guides/v3-migration/' },
           { text: 'Account', link: '/guides/account/' },
-          { text: 'Events', link: '/guides/events/' },
+          {
+            text: 'Events',
+            link: '/guides/events/',
+            items: [{ text: 'How Events Start And End', link: '/guides/events/lifecycle/' }],
+          },
           { text: 'The Live Page', link: '/guides/live-page/' },
+          { text: 'Activity Log', link: '/guides/activity-log/' },
           { text: 'Chat', link: '/guides/chat/' },
           {
             text: 'For Artists',

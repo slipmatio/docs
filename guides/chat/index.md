@@ -7,7 +7,7 @@ tags:
 
 # Chat
 
-Chat is where the Slipmat community comes together — during shows and between them. Messages appear in
+Chat is where the Slipmat community comes together — during events and between them. Messages appear in
 real time, so a chat feels like being in the room with everyone else.
 
 ## Channels
@@ -16,7 +16,7 @@ Chat is organised into channels:
 
 - **The lobby** — the shared channel everyone is in.
 - **Artist channels** — each artist's own public channel.
-- **Event channels** — every scheduled show gets its own chat for the night. (Ad hoc shows use the
+- **Event channels** — every scheduled event gets its own chat for the night. (Ad hoc events use the
   artist's channel instead.)
 - **Direct messages** — private one-on-one conversations.
 - **Private channels** — channels you join by invitation.
@@ -70,6 +70,6 @@ hidden automatically.
 
 ## Related
 
-- [The Live Page](/guides/live-page/) — where event chat lives during a show
+- [The Live Page](/guides/live-page/) — where event chat lives while an event is on
 - [Artist Profile](/guides/artists/profile/) — roles and moderation abilities
 - [Events](/guides/events/) — how event channels come and go

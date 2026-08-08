@@ -10,7 +10,7 @@ const { Layout } = DefaultTheme
       <main class="main home">
         <div class="vp-doc">
           <p>
-            This is the official documentation for Slipmat.io v3. Please note that this site is
+            This is the official documentation for Slipmat.io. Please note that this site is
             <strong>still a work in progress</strong>.
           </p>
           <p>

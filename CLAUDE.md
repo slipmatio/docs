@@ -16,6 +16,7 @@ Write tightly, do not add any unneeded filler. All documentation should have as 
 
 ### Terms
 
+- `Event` when talking about events, NEVER a show unless you **actually** are talking about (not yet public) Show model
 - `Slipmat` when talking about the site in general, `Slipmat.io` when extra formal or talking about the actual Web site
 - `Web`, not `web`
 
