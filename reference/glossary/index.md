@@ -82,6 +82,14 @@ An event planned in advance for a set time (always on the hour). Its doors open 
 
 A private, unlisted test run of your stream, used to check your audio and video before going live. A soundcheck never appears in Slipmat's listings and doesn't mark you as live. See [How To Test Your Stream](/howto/artist/test-streaming/).
 
+### Stream Dashboard
+
+The screen an artist runs a live event from: stream health, audience numbers, song requests, polls, chat, and the Start and End buttons. It opens while an event of yours is in warmup or live. See [How To Run Your Event](/howto/artist/run-your-show/).
+
+### Track Collection
+
+An artist's own music on Slipmat, imported from DJ software exports. It's what listeners browse when they request something. See [How To Set Up Song Requests](/howto/artist/set-up-requests/).
+
 ### Warmup
 
 The period before a [scheduled event](#scheduled-event) — starting 30 minutes ahead — when the doors are open and chat is live but the video hasn't started yet. See [Events](/guides/events/).

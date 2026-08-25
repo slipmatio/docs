@@ -5,7 +5,13 @@ tags:
 
 # For Artists
 
-Everything you need to perform on Slipmat, one topic at a time:
+New to playing here? Walk through your first event in order:
+[schedule it](/howto/artist/schedule-event/),
+[set up song requests](/howto/artist/set-up-requests/),
+[test your stream](/howto/artist/test-streaming/), then
+[run the night](/howto/artist/run-your-show/).
+
+The guides below cover the same ground in more depth, one topic at a time:
 
 - **[Artist Profile](/guides/artists/profile/)** — set up your profile, add members and roles, and
   manage your fans.

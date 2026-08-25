@@ -45,10 +45,10 @@ one is already live, it is turned down and stays where it is. Soundchecks don't 
 1. **30 minutes before the start time.** Slipmat moves the event to warmup and opens its chat, so
    listeners can gather.
 2. **You connect your streaming software.** Nothing goes on the air yet.
-3. **You press Start.** The event goes live, its start time is recorded, and Slipmat begins collecting
-   the event's statistics.
-4. **You press End.** The event moves to ended, any open song requests are closed, and the event's
-   statistics are calculated.
+3. **You press Start event** in the [Stream Dashboard](/howto/artist/run-your-show/). The event goes
+   live, its start time is recorded, and Slipmat begins collecting the event's statistics.
+4. **You press End event.** The event moves to ended, any open song requests are closed, and the
+   event's statistics are calculated.
 5. **30 minutes after that.** The event is archived and its chat closes. If you have set a redirect to
    a next event, your audience is sent there when you press End instead of waiting through the
    cooldown.
@@ -86,9 +86,8 @@ touch the event itself. If the stream stays disconnected for 30 minutes, Slipmat
 
 ## Resuming an event that ended too early
 
-For **30 minutes** after it ends, a scheduled event can be **resumed**. The action is on your stream
-monitor and on the event's own page in your Artist Dashboard, and it disappears once the event is
-archived.
+For **30 minutes** after it ends, a scheduled event can be **resumed**. The action is on the event's
+own page under Events, and it disappears once the event is archived.
 
 Resuming returns the event to warmup. Reconnect your streaming software if needed, then press Start
 as usual.

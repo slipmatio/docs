@@ -52,7 +52,13 @@ export default defineConfig({
       },
       {
         text: 'Howto',
-        items: [{ text: 'How To Test Streaming', link: '/howto/artist/test-streaming/' }],
+        link: '/howto/',
+        items: [
+          { text: 'Schedule Your First Event', link: '/howto/artist/schedule-event/' },
+          { text: 'Set Up Song Requests', link: '/howto/artist/set-up-requests/' },
+          { text: 'Test Your Stream', link: '/howto/artist/test-streaming/' },
+          { text: 'Run Your Event', link: '/howto/artist/run-your-show/' },
+        ],
       },
       {
         text: 'Reference',

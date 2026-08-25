@@ -71,7 +71,8 @@ Every live event moves through the same stages:
 
 ::: tip One event at a time
 An artist can only have **one** live event running at a time. You can schedule as many future events
-as you like — overlapping is fine — but only one can actually be on the air.
+as you like — overlapping is fine, as long as no two of them start at the same time — but only one
+can actually be on the air.
 :::
 
 When an event ends, any open song requests are closed automatically and the event's statistics are

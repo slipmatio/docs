@@ -12,8 +12,9 @@ purpose: it makes for a better listening experience, better discovery, and bette
 
 ## What you need
 
-1. Your **streaming server URL** and **streaming key**, both found in your Artist Dashboard. Each
-   member of an artist gets their own key.
+1. Your **streaming server URL** and **streaming key**. While an event of yours is running they're in
+   the Stream Dashboard under **Encoder credentials**; at any other time they're on the
+   [Soundcheck](/howto/artist/test-streaming/) page. Each member of an artist gets their own key.
 2. Your encoder set up to Slipmat's stream requirements. These are listed on the
    [Frankie reference page](/reference/frankie/) — match them exactly, or your stream may be rejected
    or sound wrong.
@@ -34,8 +35,9 @@ For a [scheduled event](/guides/events/#scheduled-events), the doors open automa
 before the start time (the warmup). To go live:
 
 1. Connect your streamer during the warmup.
-2. Start the event from your Artist Dashboard when you're ready to perform.
-3. **End the event yourself** from the dashboard when you're finished.
+2. Press **Start event** in the [Stream Dashboard](/howto/artist/run-your-show/) when you're ready to
+   perform.
+3. **End the event yourself** from the same screen when you're finished.
 
 ::: warning Scheduled events don't stop by themselves
 A scheduled event stays live until you end it — it won't stop just because you disconnect your
@@ -54,19 +56,18 @@ For an [ad hoc event](/guides/events/#ad-hoc-events) there's nothing to start or
 
 ## Keeping an eye on your stream
 
-While you're connected, your dashboard's stream monitor shows whether Slipmat is receiving your
-stream and flags any quality problems it detects — things like low audio bitrate, a missing audio
-channel, or an unsuitable resolution. If it warns you about something, fix it in your encoder; your
-listeners hear and see the same stream the monitor is checking.
+While you're connected, the ring in the [Stream Dashboard](/howto/artist/run-your-show/) shows whether
+Slipmat is receiving your stream and flags any quality problems it detects — things like low audio
+bitrate, a missing audio channel, or an unsuitable resolution. If it warns you about something, fix it
+in your encoder; your listeners hear and see the same stream the dashboard is checking.
 
 ## When something goes wrong
 
 - **Your stream drops while you're live.** The event stays live. Reconnect your streamer and the
   stream continues. If it stays disconnected for 30 minutes, Slipmat ends the event.
 - **The event ended and you weren't done.** For 30 minutes after it ends, a scheduled event can be
-  **resumed** from your stream monitor or from the event's page in your Artist Dashboard. It returns
-  to warmup; reconnect and press Start again. See
-  [How Events Start And End](/guides/events/lifecycle/).
+  **resumed** from the event's own page under Events. It returns to warmup; reconnect and press Start
+  again. See [How Events Start And End](/guides/events/lifecycle/).
 - **You want to know what happened.** Your [activity log](/guides/activity-log/) lists every
   connection, disconnection, start, end and automatic step from the last 30 days.
 
